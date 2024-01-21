@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["deno.window"]
+  },
+  "tasks": {
+    "start": "deno run --allow-all poll.ts",
+    "dev": "deno run --allow-all --watch poll.ts"
+  }
+}
